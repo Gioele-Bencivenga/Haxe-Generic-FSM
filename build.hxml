@@ -1,0 +1,21 @@
+# https://haxe.org/manual/compiler-usage.html
+
+# class path, the name of the parent folder of your classes
+-cp src
+
+# https://haxe.org/manual/cr-static-analyzer.html
+-D analyzer-optimize
+
+--each
+
+# specifying main class
+-main Main
+# compile code to haxe interpreter
+--interp
+
+--next
+
+# specifying main class
+-main Main
+# compile code to javascript and put it in bin folder
+-js bin
