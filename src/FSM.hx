@@ -69,7 +69,7 @@ class FSM {
 			currentState.enter(); // enter it
 	}
 
-	/** dovrebbero esserci questi qua
+	/** these methods are present in the guide as it's made for Unity
 		 public void Update()
 		{
 		 if (mCurrentState != null)
